@@ -101,10 +101,10 @@ body {
   text-decoration: line-through;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 321px) {
   .container {
     padding: 20px 10px;
-    width: 80%;
+    width: 90%;
     min-width: 250px;
   }
 
