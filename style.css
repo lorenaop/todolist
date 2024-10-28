@@ -100,3 +100,37 @@ body {
 .completed {
   text-decoration: line-through;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 30px 40px;
+    width: 90%;
+    min-width: 250px;
+  }
+
+  .new-task-container {
+    padding: 30px 10px;
+  }
+
+  .new-task-container input {
+    flex: 1;
+    font-size: 0.8rem;
+    padding: 6px;
+    font-weight: 500;
+  }
+
+  .new-task-button {
+    font-size: 1rem;
+    padding: 6px;
+    margin-left: 6px;
+  }
+
+  .tasks-container {
+    padding: 15px 20px;
+    margin-top: 50px;
+  }
+
+  .task-item i {
+    padding: 5px;
+  }
+}
