@@ -101,7 +101,7 @@ body {
   text-decoration: line-through;
 }
 
-@media (max-width: 844px) {
+@media (max-width: 900px) {
   .container {
     padding: 20px 10px;
     width: 90%;
